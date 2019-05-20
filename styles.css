@@ -1,0 +1,20 @@
+p {
+	border: 1px;
+	border-style: solid;
+	padding: 1em;
+	border-radius: 5px;
+	color: grey;
+}
+
+body {
+	text-align: center;
+}
+
+.next_to {
+	display: inline-block;
+}
+
+.black_text {
+	color: black;
+	font-weight: bold;
+}

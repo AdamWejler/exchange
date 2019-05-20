@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Exchange</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Select exchange currencies</h1>
+
+    <div class="next_to">From</div>
+	<select class="next_to" id="from" onchange="currency_selected()"></select>
+	<div class="next_to">to</div>
+	<select class="next_to" id="to" onchange="currency_selected()"></select>
+	<p class="next_to" id="rate"></p>
+
+	<div id="chart"><script type="text/javascript"></script></div>
+
+	<script src="scripts.js"></script>
+  </body>
+</html>
